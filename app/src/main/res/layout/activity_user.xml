@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_three"
+    tools:context="UserActivity">
+
+    <TextView
+        android:id="@+id/begin_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/cambay"
+        android:gravity="center"
+        android:text="@string/string_user"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/begin_view"
+        android:contentDescription="@string/nerd_quotes_title"
+        android:src="@drawable/img_main" />
+
+    <EditText
+        android:id="@+id/edit_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/about_you"
+        android:textColorHint="@color/white" />
+
+    <ImageView
+        android:id="@+id/png_kitty"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/edit_user"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/kitty_imagem"
+        android:src="@drawable/img_kitty" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/png_kitty"
+        android:backgroundTint="@color/blue_two"
+        android:text="@string/button_save"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:paddingHorizontal="30dp"
+        android:fontFamily="@font/cambay"/>
+
+</RelativeLayout>

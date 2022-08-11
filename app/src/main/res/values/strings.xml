@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Nerd Frases</string>
+    <string name="string_hello">Hi</string>
+    <string name="string_phrase"> </string>
+    <string name="string_author">Ator</string>
+    <string name="button_home">NEW QUOTE</string>
+    <string name="string_user">Learn cool quotes!</string>
+    <string name="button_save">SAVE</string>
+    <string name="validation_mandatory_name">Pls, tell me your name! </string>
+    <string name="about_you">Tell me your name.</string>
+    <string name="programming">Programming</string>
+    <string name="code">Code</string>
+    <string name="anime">Anime</string>
+    <string name="nerd_quotes_title">Nerd Quotes Title</string>
+    <string name="kitty_imagem">Kitty Imagem</string>
+</resources>
