@@ -1,14 +1,14 @@
-package com.yawlle.kittyquotesjava.infra;
+package com.yawlle.kittyquotesjava.infra.programming;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Phrase {
+    @Expose
     @SerializedName("author")
-    @Expose
     private String author;
-    @SerializedName("en")
     @Expose
+    @SerializedName("en")
     private String en;
 
     public String getAuthor(){

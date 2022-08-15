@@ -33,6 +33,7 @@
         android:layout_centerInParent="true"
         android:layout_margin="20dp"
         android:backgroundTint="@color/white"
+        android:textColor="@color/white"
         android:hint="@string/about_you"
         android:textColorHint="@color/white" />
 
